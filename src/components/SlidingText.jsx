@@ -6,7 +6,7 @@ const SlidingText = () => {
       <Marquee direction="right">
         {Array.from({ length: 100 }, (_, i) => (
           <p key={i} className="mx-10 text-green-100 text-lg font-bold">
-            BUY $UKYO INU
+            Buy UKYO
           </p>
         ))}
       </Marquee>

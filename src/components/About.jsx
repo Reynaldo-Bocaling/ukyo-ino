@@ -11,7 +11,7 @@ const About = () => {
           alt=""
         />
         <div className="flex flex-col items-center justify-center max-w-2xl mt-12 md:mt-0">
-          <h1 className="text-center text-white text-5xl font-bold">
+          <h1 className="title-font  text-center text-white text-5xl font-bold">
             UKYO INU
           </h1>
           <h1 className="text-center text-white text-2xl font-bold mt-3">

@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
 
 .main-content {
   background: url('/cloud.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.title-font {
+  font-family: "Sigmar One", sans-serif;
 }
