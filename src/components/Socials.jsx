@@ -31,7 +31,7 @@ const Socials = () => {
   return (
     <div className="w-full mb-10">
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-center gap-5 mt-10 ">
-        <h1 className="text-center text-4xl md:text-7xl font-bold text-blue-500">
+        <h1 className="title-font text-center text-4xl md:text-7xl font-bold text-blue-500">
           Please Visit Us
         </h1>
         <div className="flex items-center justify-center gap-2 md:gap-5 mt-12 px-5">
